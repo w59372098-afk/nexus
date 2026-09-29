@@ -3,7 +3,8 @@ import { createRoot } from "react-dom/client";
 import { ArrowRight, Brain, CheckCircle2, History, Sparkles, ShieldAlert, X, BookOpen, RotateCcw } from "lucide-react";
 import "./style.css";
 
-const API = (import.meta.env.VITE_API_URL || "http://localhost:8000").replace(/\/$/, "");
+const API = (import.meta.env.VITE_API_URL || "https://nexus-backend-el9m.onrender.com").replace(/\/$/, "");
+
 
 const FIRST_INCIDENT = {
   title: "Checkout API returning HTTP 503",
